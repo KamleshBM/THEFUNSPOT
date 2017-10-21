@@ -1,9 +1,9 @@
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  body {
-    background: #999;
-    width: 100%;
-  }
-}
+@media only screen and (max-width: 640px){
+        .sqs-block-html .sqs-block-content {
+            padding-right: 25px;
+            padding-left: 25px;
+        }
+      }
 ul {
     list-style-type: none;
     margin: 0;
