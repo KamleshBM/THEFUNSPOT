@@ -38,6 +38,7 @@ h1 {
     background-image: url("image1.jpg");
     padding: 0px 0px 0px;
     height: 100%;
+    max-width: 100%;
 
 
     /* Create the parallax scrolling effect */
@@ -67,6 +68,7 @@ h1 {
     color: white;
     text-align: left;
     background-image: url("Pamphlet.jpg");
+    max-width: 100%;
     background-repeat: no-repeat;
     background-position: left;
 }
@@ -76,6 +78,7 @@ h1 {
     color: white;
     text-align: left;
     background-image: url("offer.jpg");
+    max-width: 100%;
     background-repeat: no-repeat;
     background-position: left;
 
@@ -87,6 +90,7 @@ h1 {
     color: white;
     text-align: left;
     background-image: url("logonew.jpg");
+    max-width: 100%;
     background-repeat: no-repeat;
     background-position: right;
     background-blend-mode:multiply;
