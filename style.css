@@ -1,0 +1,88 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #33B2FF;
+}
+
+li {
+    float: left;
+}
+
+li a {
+   	 display: inline-block;
+    	 color: white;
+    	 text-align: center;
+    	 padding: 14px 16px;
+    	 text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+h1 {
+    color: red;
+    font-size: 3em;
+    text-decoration: underline;
+    }
+
+.parallax {
+    /* The image used */
+    background-image: url("image1.jpg");
+    padding: 0px 0px 0px;
+    height: 100%;
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-left {
+    padding: 300px 40px 40px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 40px;
+}
+.center-left {
+    padding:  40px 100px 60px;
+    background-color: #434247;
+    font-family: "Times New Roman", Times, serif; 
+    color: white;
+    text-align: left;
+    }
+.center-left1 {
+    padding:  0px 0px 0px;
+    font-family: "Times New Roman", Times, serif; 
+    color: white;
+    text-align: left;
+    background-image: url("Pamphlet.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.center-left2 {
+    padding:  0px 0px 0px;
+    font-family: "Times New Roman", Times, serif; 
+    color: white;
+    text-align: left;
+    background-image: url("offer.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.bottom-left {
+    padding:  0px 0px 0px 0px;
+    background-color: #434247;
+    font-family: "Times New Roman", Times, serif; 
+    color: white;
+    text-align: left;
+    background-image: url("logonew.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-blend-mode:multiply;
+
+}
