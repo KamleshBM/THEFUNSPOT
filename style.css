@@ -4,6 +4,9 @@
             padding-left: 25px;
         }
       }
+body{
+    margin: 0;
+}
 ul {
     list-style-type: none;
     margin: 0;
