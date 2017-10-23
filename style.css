@@ -2,6 +2,7 @@
         .sqs-block-html .sqs-block-content {
             padding-right: 25px;
             padding-left: 25px;
+            margin: 0;
         }
       }
 body{
