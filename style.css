@@ -50,6 +50,7 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-sizing: border-box;
 }
 
 .top-left {
@@ -75,6 +76,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: left;
     margin: 0px;
+    box-sizing: border-box;
 }
 .center-left2 {
     padding:  200px 550px 300px;
@@ -101,5 +103,6 @@ h1 {
     background-repeat: no-repeat;
     background-position: left;
     background-blend-mode:multiply;
+    box-sizing: border-box;
 
 }
